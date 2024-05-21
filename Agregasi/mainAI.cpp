@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include <string>
 using namespace std; 
 
 #include "anak.h"
@@ -26,6 +26,6 @@ int main() {
 	delete varAnak2; 
 	delete varAnak3; 
 
-	return 0; 
+	return 0;
 
 }
