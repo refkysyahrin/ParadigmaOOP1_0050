@@ -2,4 +2,10 @@
 #include <string>
 using namespace std;
 
-class mahasiswa {}
+class mahasiswa {
+private:
+    const int id;
+    
+
+
+}
