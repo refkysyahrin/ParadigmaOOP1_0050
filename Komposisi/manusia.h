@@ -4,15 +4,15 @@ using namespace std;
 
 class manusia {
 public:
-	string name;
-	jantung varJantung;
+   string nama;
+   jantung varJantung;
 
-	manusia(string pName)
-		: name(pName) {
-		cout << name << "hidup\n";
-	}
-	~manusia() {
-		cout << name << " mati\n";
-	}
+   manusia(string pNama)
+    : nama(pNama) {
+        cout << nama << "hidup\n";
+    }
+    ~manusia() {
+        cout << nama << "mati\n";
+    }
 };
 #endif
